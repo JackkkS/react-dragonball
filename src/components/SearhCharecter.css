@@ -1,0 +1,21 @@
+.search {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px; /* Adjust this value as needed to position the icon */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777; /* You can change the color to your preference */
+    pointer-events: none; /* Allows the input field to be clickable */
+  }
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+}

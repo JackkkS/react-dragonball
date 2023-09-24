@@ -1,0 +1,33 @@
+.content {
+    background-color: rgb(248, 248, 248);
+    border: 3px solid rgb(27, 190, 255);
+    border-radius: 10px;
+}
+
+.content img {
+    display: block;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+.content h4{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.7rem;
+}
+
+.btn {
+    display: flex;
+    width: 30%;
+    height: 2.3rem;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(64, 243, 64);
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+

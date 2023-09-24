@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sriracha&family=Taviraj:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+  font-family: 'Sriracha', cursive;
+  font-family: 'Taviraj', serif;
+}
+
+section {
+  padding: 30px;
+  background-color: rgb(214, 212, 212);
+}
+
+.container{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  row-gap: 3rem;
+  column-gap: 5rem;
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; 
+    column-gap: 0; 
+
+   
+  }
+}

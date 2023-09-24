@@ -1,0 +1,101 @@
+.item {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 30%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8e0d5b54-b8a0-4710-9b41-6beaf4e093dd/dec0das-31aa3370-84a6-4581-bc0c-3ec93b9f8c8e.png/v1/fill/w_1192,h_670,q_70,strp/background_dragon_ball_z_gt_super_by_studiodraw_dec0das-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGUwZDViNTQtYjhhMC00NzEwLTliNDEtNmJlYWY0ZTA5M2RkXC9kZWMwZGFzLTMxYWEzMzcwLTg0YTYtNDU4MS1iYzBjLTNlYzkzYjlmOGM4ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.f7v-RDzYdSKMaXuDabvAjhLZQBdObr7X3AZUAMP-AgU");
+    cursor: pointer;
+}
+
+.content-info {
+    position: relative;
+    max-width: 1200px;
+    background-color: rgb(253, 234, 208);
+    box-shadow: rgb(0, 0, 0) 0.5em 0.5em 0.5em 0.8em;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .content-info p {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid red;
+        border-radius: 10px;
+        max-height: calc(100vh - 240px); /* Adjust the max height as needed */
+        overflow-y: auto; /* Add vertical scroll when content exceeds max height */
+    }
+
+    .content-info h4{
+        text-align: center;
+        margin: 0.5rem;
+        font-size: 1rem;
+        color: rgb(12, 10, 10); text-shadow: rgb(252, 38, 38) 0.1em 0.1em 0.2em
+    }
+
+  }
+
+  @media only screen and (max-width: 850px) {
+    .content-info p {
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        margin: 1rem;
+        padding: 1rem;
+        border: 1px solid red;
+        border-radius: 10px;
+        max-height: calc(100vh - 400px); 
+        overflow-y: auto; 
+    }
+
+    .content-info h4{
+        text-align: center;
+        margin: 0.5rem;
+        font-size: 1rem;
+        color: rgb(12, 10, 10); text-shadow: rgb(252, 38, 38) 0.1em 0.1em 0.2em
+    }
+
+  }
+
+.content-info img{
+    display: block;
+    max-width: 50%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-info h4{
+    text-align: center;
+    margin: 1rem;
+    font-size: 3rem;
+    color: rgb(12, 10, 10); text-shadow: rgb(252, 38, 38) 0.1em 0.1em 0.2em
+}
+
+.content-info p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid red;
+    border-radius: 10px;
+    max-height: calc(100vh - 600px); 
+    overflow-y: auto; 
+}
+
+
